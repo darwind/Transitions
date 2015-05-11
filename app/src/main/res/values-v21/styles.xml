@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/holo_red_light</item>
+
+        <item name="android:colorPrimary">@android:color/holo_red_light</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_red_dark</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

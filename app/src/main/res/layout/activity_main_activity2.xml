@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="rugaard.it.customtoolbar.MainActivity2Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@android:color/holo_red_light"
+        android:elevation="6dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp" />
+
+    <View
+        android:id="@+id/blueBoxView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/toolbar"
+        android:background="@android:color/holo_blue_bright"
+        android:transitionName="blueBox" />
+
+</RelativeLayout>
